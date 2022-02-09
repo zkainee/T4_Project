@@ -3,6 +3,7 @@
     $date = date("d-m-Y");
     $time = date("H:i:s");
     $message = "Welkom Student";
+    // Dit is een comment.
 ?>
 <!DOCTYPE html>
 <html lang="nl">
