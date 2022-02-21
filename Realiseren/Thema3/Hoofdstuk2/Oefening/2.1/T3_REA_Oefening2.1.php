@@ -2,7 +2,7 @@
 /**
  * User: Kaine van Ommeren
  * Date: 14-02-2022
- * File: T3_REA_Oefening2.1.php
+ * File: T3_REA_Oefening2.2.php
  */
 ?>
 <!DOCTYPE html>
@@ -34,8 +34,8 @@
             <ul>
                 <li>Hoofdstuk 1:</li>
                 <ul>
-                    <li><a href="/Realiseren/Thema3/Hoofdstuk2/Oefening/T3_REA_Oefening2.1.php">Oefening 2.1</a></li>
-                    <li><a href="/Realiseren/Thema3/Hoofdstuk2/Oefening/T3_REA_Oefening2.2.php">Oefening 2.2</a></li>
+                    <li><a href="/Realiseren/Thema3/Hoofdstuk2/Oefening/2.1/T3_REA_Oefening2.1.php">Oefening 2.1</a></li>
+                    <li><a href="/Realiseren/Thema3/Hoofdstuk2/Oefening/2.2/T3_REA_Oefening2.2.php">Oefening 2.2</a></li>
                 </ul>
             </ul>
         </nav>
