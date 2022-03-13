@@ -1,0 +1,12 @@
+Taak 1:
+	1. De website gebruikt maar 1 stylesheet wat eigenlijk echt onhandig is, meerdere stylesheets zou beter zijn qua layout.
+	Zo zou een stylesheet voor de homepage, de resterende pagina's zo dezelfde stylesheet moeten hebben om zo dezelfde layout op elke pagina te hebben.
+	
+	2. In de JavaScript files staat dezelfde soort code alleen een andere id waar die naar refereert. 
+	De reden waarom dit gedaan is zodat je gemakkelijk extra pagina's kan toevoegen aan de navigatie menu zonder in de HTML te zitten.
+
+	3. De scarface.php pagina heet je in de header welkom op de pagina en de andere pagina's niet.	
+	Ook heeft deze pagina een ander lettertype vergeleken met de andere pagina's.
+
+	4. Ander lettertype en in de header word je welkom geheten op de pagina.
+	

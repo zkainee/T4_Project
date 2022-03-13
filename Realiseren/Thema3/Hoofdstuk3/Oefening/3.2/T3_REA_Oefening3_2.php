@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Kaine van Ommeren
- * Date: 24-02-2022
+ * Date: 27-02-2022
  * File: T3_REA_Oefening3.2.php
  */
 ?>
@@ -18,51 +18,31 @@
         <link href="styles/style.css" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>
-                <?php
-                    echo 'Uitwerkingen van PHP-oefeningen';
-                ?>
-            </h1>
-        </header>
+
         <?php
-            //Hier gaan we in het volgende hoofdstuk het menu toevoegen.
+            include"../../../includes/header.php";
+            echo $header;
         ?>
         <main id="wrapper">
-            <nav>
-                <h2>Thema 3</h2>
-                <ul>
-                <li>Hoofdstuk 1:</li>
-                <li>
-                    Hoofdstuk 2:
-                </li>
-                    <ul>
-                        <li><a href="/Realiseren/Thema3/Hoofdstuk2/Oefening/2.1/T3_REA_Oefening2.1.php">Oefening 2.1</a></li>
-                        <li><a href="/Realiseren/Thema3/Hoofdstuk2/Oefening/2.2/T3_REA_Oefening2.2.php">Oefening 2.2</a></li>
-                    </ul>
-                <li>
-                    Hoofdstuk 3:
-                </li>
-                    <ul>
-                        <li><a href="/Realiseren/Thema3/Hoofdstuk3/Oefening/3.1/T3_REA_Oefening3_1.php">Oefening 3.1</a> </li>
-                        <li><a href="/Realiseren/Thema3/Hoofdstuk3/Oefening/3.2/T3_REA_Oefening3_2.php">Oefening 3.2</a> </li>
-                    </ul>
-                </ul>
-            </nav>
+            <?php
+            include"../../../includes/navigation.php";
+            echo $navigation;
+            ?>
             <section>
                 <h2>
-                    Uitwerking
+                    Uitwerking oefening 3.2
                 </h2>
-
-                <!-- Plaats je code / uitwerking hieronder -->
                 <p>
                     <?php
-                        // Voorbeeldcode
-                        echo "Op deze plek komt de uitwerking van de oefening te staan.";
+                        echo "In deze oefening gaan we een template creeeren waar de header, nav en footer worden ingesloten met php.";
                     ?>
                 </p>
             </section>
         </main>
+        <?php
+        include"../../../includes/footer.php";
+        echo $footer;
+        ?>
     </body>
 </html>
 
