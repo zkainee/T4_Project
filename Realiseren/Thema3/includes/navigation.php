@@ -25,6 +25,13 @@
                 <li><a href='/Realiseren/Thema3/Hoofdstuk3/Oefening/3.1/T3_REA_Oefening3_1.php'>Oefening 3.1</a> </li>
                 <li><a href='/Realiseren/Thema3/Hoofdstuk3/Oefening/3.2/T3_REA_Oefening3_2.php'>Oefening 3.2</a> </li>
             </ul>
+            <li>
+                Hoofdstuk 4:
+            </li>
+            <ul>
+                <li><a href='/Realiseren/Thema3/Hoofdstuk4/T3_REA_Oefening_4_1_AlPacino_Bijlage/index.php'>Oefening 4.1</a> </li>
+                <li><a href='/Realiseren/Thema3/Hoofdstuk4/4.2/T3_REA_Oefening_4_2.php'>Oefening 4.2</a> </li>
+            </ul>
         </ul>
     </nav>
 ";
