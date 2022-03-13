@@ -40,3 +40,9 @@ main section
 	box-sizing: border-box;
 	padding: 25px;
 }
+footer
+{
+	background-color: darkcyan;
+	text-align: center;
+	padding: 1vh;
+}
