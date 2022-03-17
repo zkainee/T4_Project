@@ -29,8 +29,9 @@
                 Hoofdstuk 4:
             </li>
             <ul>
-                <li><a href='/Realiseren/Thema3/Hoofdstuk4/T3_REA_Oefening_4_1_AlPacino_Bijlage/index.php'>Oefening 4.1</a> </li>
+                <li><a href='/Realiseren/Thema3/Hoofdstuk4/4.1/index.php'>Oefening 4.1</a> </li>
                 <li><a href='/Realiseren/Thema3/Hoofdstuk4/4.2/T3_REA_Oefening_4_2.php'>Oefening 4.2</a> </li>
+                <li><a href='/Realiseren/Thema3/Hoofdstuk4/4.3/T3_REA_Oefening_4_3.php'>Oefening 4.3</a> </li>
             </ul>
         </ul>
     </nav>

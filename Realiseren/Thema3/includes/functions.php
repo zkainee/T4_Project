@@ -62,6 +62,8 @@ function ShowMenu($day)
     }
 }
 
+// Oefening 4.2 - Taak 3
+
 function CheckLadiesNight($age, $gen)
 {
     if ($age >= 70 || $age >= 18 && $gen == "Vrouw")
@@ -75,6 +77,61 @@ function CheckLadiesNight($age, $gen)
         echo "<p> Uw geslacht is: " . $gen . "</p>";
         echo "<p> Uw leeftijd is: " . $age . "</p>";
         echo "<p> U schikt niet over de aangegeven data, u mag daarom niet naar binnen. </p>";
+    }
+}
+
+// Oefening 4.3 - Taak 1
+
+function GetUnixTime()
+{
+    $pastTime = Time();
+    echo("Het is nu ". $pastTime . " seconden na 1 Janurari 1970. " . "<br>");
+}
+
+// Oefening 4.3 - Taak 2
+
+function CalculateInterest($priceCar, $savedMoney)
+{
+    echo ("Een leuk tweedehands autootje kost " . $priceCar . " euro. Ik heb " . $savedMoney . " euro gespaard. " . "<br>"
+    . "Ik zet het geld op de bank en krijg daarop een waanzinnige rente van 6% per maand." . "<br>"
+    . "Ik ga met een while-loop uitrekenen hoeveel maanden ik moet wachten om de " . $priceCar . " te kunnen betalen.");
+
+    $counter = 0;
+    while ($savedMoney <= $priceCar)
+    {
+        $counter++;
+        $savedMoney *= 1.06;
+        $formatSavedMoney = number_format($savedMoney, 2);
+        echo ("<br>" . "Op maand nr. " . $counter . " heb ik gespaard: " . $formatSavedMoney . " euro ");
+    }
+
+}
+function CreatePiramid($i)
+{
+    $increase = true;
+    while ($i >= 1)
+    {
+        // i tekenen
+        for ($count = 1; $count <= $i; $count++)
+        {
+            echo $count;
+        }
+        echo "<br>";
+
+        if ($increase == true)
+        {
+            $i++;
+
+        }
+        else
+        {
+            $i--;
+        }
+        //Omslag punt = 9
+        if ($i == 9)
+        {
+            $increase = false;
+        }
     }
 }
 ?>

@@ -1,12 +1,12 @@
 <?php
 /**
  * User: Kaine van Ommeren
- * Date: 13-03-2022
- * File: T3_REA_Oefening4_2.php
+ * Date: 15-03-2022
+ * File: T3_REA_Oefening4_3.php
  */
 ?>
 <!DOCTYPE html>
-<html lang="nl">
+    <html lang="nl">
     <head>
         <title>
             <?php
@@ -30,24 +30,23 @@
         ?>
         <section>
             <h2>
-                Uitwerking oefening 4.2
+                Uitwerking oefening 4.3
             </h2>
-            <p>
+           <p>
+               <?php
+               include"../../includes/functions.php";
+               echo GetUnixTime();
+               ?>
+               <hr>
                 <?php
-                include "../../includes/functions.php";
-                echo CheckTrafficLight(false, "Rood");
+                echo CalculateInterest(2000, 1000);
                 ?>
                 <hr>
-            <?php
-            echo ShowMenu('Tue');
-            ?>
-            <hr>
-            <?php
-            echo CheckLadiesNight(21, "Vrouw");
-            ?>
-            <hr>
-            </p>
-
+                <?php
+                echo CreatePiramid(1);
+                ?>
+                <hr>
+           </p>
         </section>
     </main>
     <?php
