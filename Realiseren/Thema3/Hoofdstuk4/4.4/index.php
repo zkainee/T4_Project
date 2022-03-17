@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <!--
     Author:     Rob Wessels
+    Edited by:  Kaine van Ommeren
+
     Date:       feb 2021
+    Edited date: 17-03-2022
 
     Subject:    Bijlage oefening 4.4
 -->
@@ -22,7 +25,7 @@
             {
                 $choice = $_POST['drinks'];
                 $money = $_POST['money'];
-                $change = ($money - 1.5);
+                $change = ($money - 1.50);
 
 /*
                 // -- Opdrachten -- //
@@ -77,18 +80,14 @@
                else
                {
                    echo "<p> Melding: U heeft niet genoeg geld ingeworpen.<br>
-                        U heeft ingeworpen: &euro;" . $money .
+                        U heeft ingeworpen: &euro;" . $money . "<br>" .
                        "U komt nog &euro; " . $change . " te kort." . "</p>";
                }
                 // tot hier
             }
-
             else
-
             {
-
         ?>
-
                     <form id="form" action="" method="POST">
 
                         <h1>
