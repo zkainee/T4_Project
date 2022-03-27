@@ -38,6 +38,7 @@
             </li>
             <ul>
                 <li><a href='/Realiseren/Thema3/Hoofdstuk5/5.1/Oefening5_1.php'>Oefening 5.1</a> </li>
+                <li><a href='/Realiseren/Thema3/Hoofdstuk5/5.2/Oefening5_2.php'>Oefening 5.2</a> </li>
             </ul>
         </ul>
     </nav>
