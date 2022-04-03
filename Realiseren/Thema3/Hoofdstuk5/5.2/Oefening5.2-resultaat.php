@@ -77,7 +77,6 @@ else
     </main>
     <?php
     include"../../includes/footer.php";
-    echo $footer;
     ?>
     </body>
 </html>

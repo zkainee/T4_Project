@@ -44,7 +44,8 @@
                 Hoofdstuk 6:
             </li>
             <ul>
-                <li><a href='/Realiseren/Thema3/Hoofdstuk6/6.1/Oefening6_1.php'>Oefening 6.1</a> </li>
+                <li><a href='/Realiseren/Thema3/Hoofdstuk6/6.1/T3_REA_Oefening6_1.php'>Oefening 6.1</a></li>
+                <li><a href='/Realiseren/Thema3/Hoofdstuk6/6.3/T3_REA_Oefening6_3.php'>Oefening 6.3</a></li>
             </ul>
         </ul>
     </nav>
