@@ -79,10 +79,10 @@
                             </label>
                         </td>
                         <td>
-<!--                            --><?php
-//                            $reasonWriteOut = ["slcUitschrijving"];
-//                            echo $reasonWriteOut;
-//                            ?>
+                            <?php
+                            $reasonWriteOut = $_GET["slcUitschrijving"];
+                            echo $reasonWriteOut;
+                            ?>
                         </td>
                     </tr>
                     <tr>

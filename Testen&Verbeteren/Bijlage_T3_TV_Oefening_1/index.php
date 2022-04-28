@@ -15,7 +15,7 @@
      */
 
     // variabele declareren en initialiseren
-    $year = 2014;
+    $year = 2013;
 
     /**
      * Een schrikkeljaar is niet deelbaar door 100 maar wel door 4 en door 400

@@ -36,6 +36,7 @@
                 <?php
                 include "../../includes/functions.php";
                 echo CheckTrafficLight(false, "Rood");
+                echo CheckTrafficLight(true, "Oranje");
                 ?>
                 <hr>
             <?php

@@ -69,7 +69,7 @@
 
                 echo "Je hebt gekozen voor: $keuze ";
                 echo "Je hebt de keuze gemaakt: $keuze <img src='./images/{$_GET['keuze']}.jpg'>";
-                echo "De computer heeft gekozen voor: $computerkeuze <img src='./images/{$_GET['$computerkeuze']}.jpg'> ";
+                echo "De computer heeft gekozen voor: $computerkeuze <img src='./images/{$computerkeuze}.jpg'> ";
 
                 //Gelijkspel
                 if ($keuze == $computerkeuze)

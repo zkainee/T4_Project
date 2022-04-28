@@ -1,0 +1,22 @@
+.container
+{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 23vw);
+}
+
+.container .pixel
+{
+    border: black 1px solid;
+    box-sizing: border-box;
+    height: 23vh;
+    overflow: hidden;
+}
+.container .pixel input
+{
+    height: 116%;
+    width: 103%;
+    border: 0px;
+    margin: -6px; /* Verberg de rand rond de <input> */
+
+}
