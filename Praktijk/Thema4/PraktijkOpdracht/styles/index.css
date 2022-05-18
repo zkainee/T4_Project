@@ -1,0 +1,33 @@
+/*
+    Author: Kaine van Ommeren
+    Date: 17-05-2022
+    File: index.css
+
+ */
+body
+{
+    margin: 0;
+}
+#kuijpersBackground
+{
+    height: 100%;
+    width: 100%;
+}
+.menuNav
+{
+    position: fixed;
+    display: block;
+    right: 20px;
+    bottom: 0px;
+    text-align: center;
+    list-style: none;
+    font-family: "Lucida Sans", sans-serif;
+    padding: 20px;
+    color: black;
+}
+a:hover
+{
+    background-color: lightgray;
+    padding: 20px;
+    color: black;
+}
