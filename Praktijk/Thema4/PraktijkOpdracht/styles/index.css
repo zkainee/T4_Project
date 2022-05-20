@@ -23,6 +23,8 @@ body
     list-style: none;
     font-family: "Lucida Sans", sans-serif;
     padding: 20px;
+    font-weight: bold;
+    background-color: lightgray;
     color: black;
 }
 a:hover

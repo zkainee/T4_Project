@@ -28,7 +28,7 @@ function executeQuery($sql)
     }
     catch (PDOException $e)
     {
-        echo 'Er is een probleem met ophalen van jokes: ' . $e->getMessage();
+        echo 'Er is een probleem met ophalen van gegevens: ' . $e->getMessage();
         die();
     }
 }
