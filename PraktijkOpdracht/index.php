@@ -15,7 +15,7 @@
         <?php
         include "./function/nav.php"
         ?>
-        <img src="./pictures/kuijpers.png" id="kuijpersBackground">
+        <img src="./pictures/kuijpers.png" class="kuijpersBackground">
     </body>
 </html>
 

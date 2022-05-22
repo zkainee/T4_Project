@@ -10,7 +10,7 @@ session_start();
 include "../function/db_functions.php";
 
 startConnection();
-$sql = "SET NOCOUNT ON; USE Kuijpers; SELECT * FROM Medewerkers' ";
+$sql = "SET NOCOUNT ON; USE Kuijpers; SELECT * FROM Medewerkers";
 $resultaat = executeQuery($sql);
 
 //Bepalen of er correct is ingelogd
@@ -42,15 +42,15 @@ if (isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] == true)
             {
                 echo "<tr>";
                 echo "<td>". $row["naam"] . "</td>";
-                echo "<td>". $row["telefoonnummer"] . "</td>";
-                echo "<td>". $row["emailadres"] . "</td>";
-                echo "<td>". $row["werkzaamheden"] . "</td>";
+                echo "<td>". $row["telefoonNummer"] . "</td>";
+                echo "<td>". $row["emailAdres"] . "</td>";
+                echo "<td>". $row["werkzaamHeden"] . "</td>";
                 echo "</tr>";
             }
             echo "</tr>";
             echo "</table><br>";
             ?>
-                <img src="../pictures/kuijpers.png" id="kuijpersBackground">
+                <img src="../pictures/kuijpers_overzicht.png" class="kuijpersBackground_fix">
             </body>
         </html>
         <?php

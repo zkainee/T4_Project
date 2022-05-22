@@ -43,10 +43,12 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../styles/index.css">
+        <link rel="stylesheet" href="../styles/login.css">
         <title>Kuijpers: Login</title>
     </head>
     <body>
-    <form method="post" action="login.php">
+    <form method="post" action="login.php" class="parent">
         <p>
             Username:
         </p>
@@ -57,5 +59,6 @@
         <input type="password" name="txtPassword" required>
         <input type="submit" value="Login">
     </form>
+    <img src="../pictures/kuijpers_overzicht.png" class="kuijpersBackground_fix">
     </body>
 </html>
