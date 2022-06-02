@@ -55,5 +55,11 @@ $navigation = "
         <ul>
             <li><a href='/Realiseren/Thema4/Hoofdstuk1/1.1/T4_REA_Oefening1_1.php'>Oefening 1.1</a></li>  
         </ul>
+        <li>
+            Hoofdstuk 4:
+        </li>
+        <ul>
+            <li><a href='/Realiseren/Thema4/Hoofdstuk4/Uitleg/index.php'>Uitleg 4.1</a></li>  
+        </ul>
     </nav>
 ";

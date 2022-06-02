@@ -43,14 +43,3 @@ VALUES
 	('Kaine', 'Welkom2022'),
 	('Holla46', 'Welkom2022'),
 	('Boekholt19', 'Welkom2022');
-
-SELECT * FROM [Login]
-
---SELECT * FROM  
---WHERE Username = 'Kaine'
---AND Password = 'P@ssword'
-
---SET NOCOUNT ON; USE PraktijkOpdracht;
---SELECT * FROM Users WHERE Username = ''; 
-
---drop table Users; -- ' AND Password ='';
