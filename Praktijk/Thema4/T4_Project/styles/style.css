@@ -1,0 +1,68 @@
+/*
+    Author: Kaine van Ommeren
+    Date: 07-06-2022
+    file: style.css
+ */
+body
+{
+    background-color: #304759;
+    color: #4C9CDA;
+}
+header
+{
+    text-align: center;
+    height: 15%;
+    padding-top: 15px;
+    position: relative;
+}
+nav
+{
+    text-align: left;
+}
+a
+{
+    color: #AECADF;
+    background-image:  url(https://cdn.bitdegree.org/learn/list-style-image-marker-1.png?426d93cd);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+    background-position-y: 13px;
+    padding: 10px 10px 15px 30px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+a:hover
+{
+    font-size: larger;
+}
+.ul-background:hover {
+    width: 100px;
+}
+.ul-background
+{
+    margin: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 25px;
+    background: #3B79A8;
+}
+h1, h2, h3
+{
+    color: #4C9CDA;
+}
+p
+{
+    color: #AECADF;
+}
+footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1vh;
+}
+h2
+{
+    text-align: center;
+}

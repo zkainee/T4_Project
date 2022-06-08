@@ -20,6 +20,10 @@ header
     padding-top: 15px;
     position: relative;
 }
+ul
+{
+    list-style: square outside url(https://cdn.bitdegree.org/learn/list-style-image-marker-1.png?426d93cd);
+}
 main
 {
     height: 80%;
@@ -53,4 +57,9 @@ footer
     background-color: darkcyan;
     text-align: center;
     padding: 1vh;
+}
+.error
+{
+    color: red;
+    font-weight: bold;
 }
