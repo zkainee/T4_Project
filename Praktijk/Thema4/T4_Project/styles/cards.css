@@ -126,7 +126,7 @@ body {
 }
 /* RESPONSIVE */
 
-@media (max-width: 1600px) {
+@media (max-width: 1920px) {
     .cards {
         justify-content: center;
     }
