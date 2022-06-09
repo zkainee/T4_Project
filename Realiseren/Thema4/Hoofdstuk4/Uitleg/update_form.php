@@ -67,13 +67,36 @@ echo $header;
             Updaten van de grap: <? echo $jokeVar["Id"] ?></p>
         </p>
         <form action="update-query.php" method="post">
-            <input type="text" name="txtJokeText" value="<?php echo $jokeVar["RiddleText"]?>">
-            <input type="text" name="txtJokeAnswer" value="<?php echo $jokeVar["RiddleAnswer"]?>">
-            <input type="date" name="dateJokeDate" value="<?php echo $jokeVar["CreateDate"]?>">
-            <input list="Creators" name="creators">
-                <option value="Kaine">
-                <option value="Marvin">
-                <option value="Ron">
+            <input type="hidden" name="hidRiddleId" value="<?php echo $jokeVar["Id"] ?>">
+            <label>Grap tekst:</label>
+            <label>
+                <input type="text" name="txtJokeText" value="<?php echo $jokeVar["RiddleText"]?>">
+            </label>
+            <br>
+            <label>Grap uitkomst:</label>
+            <label>
+                <input type="text" name="txtJokeAnswer" value="<?php echo $jokeVar["RiddleAnswer"]?>">
+            </label>
+            <br>
+            <label>Grap create datum:</label>
+            <label>
+                <input type="date" name="dateJokeDate" value="<?php echo $jokeVar["CreateDate"]?>">
+            </label>
+            <br>
+            <label>Grap maker:</label>
+            <label>
+                <select name="drpJokeCreator">
+                    <option value="<?php echo $jokeVar["Creator"]?>">
+                    <?php echo $jokeVar["Creator"] ?>
+                    </option>
+                    <option value="Kaine">Kaine</option>
+                    <option value="Marvin">Marvin</option>
+                    <br>
+            </label>
+            <br>
+            <label>
+                <input type="submit" value="Versturen">
+            </label>
         </form>
     </section>
     <br>
