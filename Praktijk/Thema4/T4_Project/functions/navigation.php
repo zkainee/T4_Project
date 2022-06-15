@@ -6,5 +6,5 @@
  */
 ?>
 <nav class="ul-background">
-    <a href="../T4_Project/pages/login.php">Login</a>
+    <a class="AHomepage" href="/Praktijk/Thema4/T4_Project/pages/login.php">Login</a>
 </nav>

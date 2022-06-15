@@ -5,24 +5,6 @@
  * file: login.php
  */
 ?>
-<?php
-
-    include("../functions/db_functions.php");
-
-    //Start connect met de database
-    startConnection();
-
-    // Inlog query
-    session_start();
-
-    $username = $_POST["txtUsername"];
-    $password = $_POST["hidPassword"];
-
-    $query = "SET NOCOUNT ON; USE ; SELECT * FROM [Login] WHERE Username = '$username' AND Password = '$password' ";
-
-    $result = executeQuery($query);
-
-?>
 <!doctype html>
 <html lang="nl">
     <head>
@@ -33,7 +15,7 @@
         <link rel="stylesheet" href="../styles/style.css">
         <link rel="stylesheet" href="../styles/cards.css">
         <link rel="stylesheet" href="../styles/login.css">
-        <link rel="icon" href="https://www.kw1c.nl/_layout/afbeelding/logo.svg">
+        <link rel="icon" href="../pictures/KW1C_Rood_Driehoek.png">
         <title>Cosmo Academy Events</title>
     </head>
     <body>
@@ -50,16 +32,22 @@
             <div class="card card-1">
                 <div class="card__icon"><i class="fas fa-bolt"></i></div>
                 <p class="card__exit"><i class="fas fa-times"></i></p>
-                <h2 class="card__title">Log hier in:</h2>
-                <form method="post" action="login.php">
+                <div class="card_form">
+                    <p>
+                        <h2 class="card__title">Log hier in:</h2>
+                    </p>
+                <form class="form-style" method="post" action="login_check.php">
                     <label>
+                        <p>Gebruikersnaam:</p>
                         <input type="text" name="txtUsername" required>
                     </label>
                     <label>
+                        <p>Wachtwoord:</p>
                         <input type="password" name="hidPassword" required>
                     </label>
                     <input type="submit" value="Login">
                 </form>
+                </div>
             </div>
     </main>
     <?php

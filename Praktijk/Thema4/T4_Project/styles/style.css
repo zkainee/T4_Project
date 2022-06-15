@@ -36,12 +36,12 @@ a:hover
     font-size: larger;
 }
 .ul-background:hover {
-    width: 100px;
+    width: 175px;
 }
 .ul-background
 {
     margin: 10px;
-    width: 80px;
+    width: 150px;
     height: 40px;
     border-radius: 25px;
     background: #3B79A8;
@@ -65,4 +65,8 @@ footer
 h2
 {
     text-align: center;
+}
+.AHomepage
+{
+    line-height: 35px;
 }

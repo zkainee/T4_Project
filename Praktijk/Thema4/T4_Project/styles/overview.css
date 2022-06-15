@@ -1,0 +1,31 @@
+/*
+    Author: Kaine van Ommeren
+    Date: 13-06-2022
+    File: overview.css
+ */
+.card
+{
+    width: auto;
+}
+/*#tableOverview*/
+/*{*/
+/*    overflow-x: auto;*/
+/*    height: auto;*/
+/*}*/
+/*@media (min-width: 630px) {*/
+/*    .cards {*/
+/*        overflow-x: auto;*/
+/*    }*/
+/*}*/
+a
+{
+    width: 75px;
+}
+.AHomepage
+{
+    line-height: 35px;
+}
+.white
+{
+    color: white;
+}

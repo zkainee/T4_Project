@@ -8,6 +8,8 @@ function startConnection()
     try
     {
         $pdo = new PDO("odbc:odbc2sqlserver");
+
+        $pdo->query("USE CosmoAcademy;");
     }
     catch (PDOException $e)
     {
