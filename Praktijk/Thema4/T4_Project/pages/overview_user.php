@@ -56,12 +56,25 @@ session_start();
                     // Stop het script
                     die();
                 }
-                //                    echo "database connectie gelukt<br>";
-                // Uitvoeren van een SQl query
+                ?>
+                <form>
+                    <input type="text" name="search">
+                    <input type="submit" value="Zoeken">
+                </form>
+                <?php
                 try
                 {
-                    // Query maken
-                    $query = "SET NOCOUNT ON; USE CosmoAcademy; SELECT * FROM [Overview] ORDER BY [EventStart] ASC";
+
+                    if (empty($_GET['search'])) {
+                        $search = '';
+                        $query = "SET NOCOUNT ON; USE [CosmoAcademy]; SELECT * FROM [Overview] ORDER BY [EventStart] ASC";
+                    } else {
+                        $search = $_GET["search"];
+                        $query = "SET NOCOUNT ON; USE [CosmoAcademy]; SELECT * FROM [Overview] WHERE [EventName] LIKE '%$search%' OR [EventLocation] LIKE '%$search%' ORDER BY [EventStart] ASC";
+                    }
+
+//                    // Query maken
+//                    $query = "SET NOCOUNT ON; USE CosmoAcademy; SELECT * FROM [Overview] ORDER BY [EventStart] ASC";
                     executeQuery($query);
                     // Query uitvoeren
                     $result = $pdo->query($query);
